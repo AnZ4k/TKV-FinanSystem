@@ -1,6 +1,6 @@
 #! /bin/bash 
 python3 -m venv .env
 source .env/bin/activate
-pip3 -r requirements.txt
-clear
+sleep 3
+pip3 install -r requirements.txt
 echo "All task are finished"
