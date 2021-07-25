@@ -1,0 +1,141 @@
+.tkv-container {
+    margin-top: 30px;
+    width: 100%;
+    padding: 20px;
+}
+
+.tkv-main-panel {
+    text-align: center;
+    background-color: #e9e9e9;
+    margin: 0 10px 10px 10px;
+    outline: solid;
+    outline-width: 1px;
+    outline-color: #1c1c1ccb;
+    border-radius: 4px;
+}
+
+.tkv-header {
+    padding: 10px;
+    width: 100%;
+    height: 5%;
+    background-color: #d8d8d8;
+}
+
+.tkv-box-title {
+    font-size: x-large;
+    font-weight: 800;
+    margin: 0;
+}
+
+.tkv-box-content {
+    margin: 0;
+    padding: 5px;
+    font-size: x-large;
+}
+
+.tkv-value {
+    width: 100%;
+    background-color: #f4f4f4;
+}
+
+.clear {
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .tkv-main-panel {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    .tkv-main-panel {
+        float: left;
+        width: 20%;
+    }
+    .tkv-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.tkv-movs-main-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tkv-movs-main-container-internal {
+    width: 90%;
+    padding: 3px;
+    outline: solid;
+    outline-width: 1px;
+    outline-color: #1c1c1ccb;
+    border-radius: 4px;
+}
+
+.tkv-movs-title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.tkv-movs-title {
+    width: 95%;
+}
+
+.tkv-movs-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.div-separator {
+    padding: 0;
+    margin: 0 0 5px 0;
+}
+
+.tkv-mov-box {
+    width: 95%;
+    padding: 3px;
+}
+
+.sep {
+    border-right: 1px;
+    border-right-color: rgba(46, 46, 46, 0.844);
+    border-right-style: solid;
+}
+
+.tkv-row {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.tkv-tb-header {
+    padding: 10px;
+    width: 100%;
+    height: 5%;
+    background-color: #d8d8d8;
+}
+
+.tkv-tb-iten {
+    width: 100%;
+    background-color: #f4f4f4;
+}
+
+.tkv-entrada {
+    background-color: #6ff868ee;
+}
+
+.tkv-saida {
+    background-color: #f88989ee;
+}

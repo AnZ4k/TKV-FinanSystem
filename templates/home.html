@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <link rel="stylesheet" href="../static/css/home.css">
+    <link rel="stylesheet" href="../static/tpart/bootstrap/css/bootstrap.min.css">
+    <script src="../static/tpart/popper/popper.min.js"></script>
+    <script src="../static/tpart/bootstrap/js/bootstrap.min.js"></script>
+    <link rel="shortcut icon" href="../static/img/favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TKV - Home</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="../static/img/logo.png" width="40" style="margin-left: 10px; border-radius: 4px;"></a>
+            <button class="navbar-toggler btn btn-dark bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <ul class="navbar-nav  ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link ml-5"> <img class="" src="../static/tpart/img/saldo.svg"> Gerenciar Saldo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link ml-5"> <img src="../static/tpart/img/historico.svg"> Historico</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link ml-5"> <img src="../static/tpart/img/debito.svg"> Debitos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link"><img src="../static/tpart/img/sair.svg"> Sair</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <div class="tkv-container">
+        <div class="tkv-main-panel">
+            <div class="tkv-header">
+                <h1 class="tkv-box-title">Saldo Total</h1>
+            </div>
+            <div class="tkv-value">
+                <p class="tkv-box-content">R$ <span>63,12</span></p>
+            </div>
+        </div>
+
+        <div class="tkv-main-panel">
+            <div class="tkv-header">
+                <h1 class="tkv-box-title">Saldo em Debito</h1>
+            </div>
+            <div class="tkv-value">
+                <p class="tkv-box-content">R$ <span>152,00</span></p>
+            </div>
+        </div>
+
+        <div class="tkv-main-panel">
+            <div class="tkv-header">
+                <h1 class="tkv-box-title">Saldo Pendente</h1>
+            </div>
+            <div class="tkv-value">
+                <p class="tkv-box-content">R$ <span>50,00</span></p>
+            </div>
+        </div>
+
+        <div class="tkv-main-panel">
+            <div class="tkv-header">
+                <h1 class="tkv-box-title">Proximos Debitos</h1>
+            </div>
+            <div class="tkv-value">
+                <p class="tkv-box-content">R$ <span>280,00</span></p>
+            </div>
+        </div>
+        <span class="clear"></span>
+    </div>
+    <div class="tkv-movs-main-container">
+        <div class="tkv-movs-main-container-internal">
+            <div class="tkv-movs-title-container">
+                <div class="tkv-movs-title">
+                    <h3>Resumo <img src="../static/tpart/img/resumo.svg"></h3>
+                </div>
+            </div>
+            <hr class="div-separator">
+            <div class="tkv-movs-container">
+                <div class="tkv-mov-box">
+                    <div class="tkv-table">
+                        <div class="tkv-row">
+                            <span class="tkv-tb-header sep">Nome</span><span class="vertical-sep"></span>
+                            <span class="tkv-tb-header sep">Descrição</span><span class="vertical-sep"></span>
+                            <span class="tkv-tb-header">Valor</span>
+                        </div>
+                        <hr class="div-separator">
+                        <div class="tkv-row tkv-saida">
+                            <span class="tkv-tb-iten tkv-saida">teste</span>
+                            <span class="tkv-tb-iten tkv-saida">pag boleto</span>
+                            <span class="tkv-tb-iten tkv-saida">R$152,00</span>
+                        </div>
+                        <div class="tkv-row">
+                            <span class="tkv-tb-iten tkv-entrada">teste</span>
+                            <span class="tkv-tb-iten tkv-entrada">agiota</span>
+                            <span class="tkv-tb-iten tkv-entrada">R$215,12</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
